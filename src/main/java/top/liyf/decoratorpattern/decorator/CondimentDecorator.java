@@ -8,6 +8,9 @@ import top.liyf.decoratorpattern.component.Beverage;
  */
 public abstract class CondimentDecorator extends Beverage {
 
+    /**
+     * 用一个实例变量记录饮料，也就是被装饰者
+     */
     Beverage beverage;
 
     /**
